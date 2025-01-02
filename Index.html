@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+
+    <style>
+      .paragraph {
+        text-transform: capitalize;
+        margin-left: 650px;
+        margin-top: 100px;
+        color: red;
+      }
+
+      /* Element/tag Selector */
+      form {
+        background-color: antiquewhite;
+        width: 300px;
+        padding: 0px 20px 20px 20px;
+        margin: 0px 0px 0px 550px;
+        border-radius: 10px;
+      }
+
+      /* class Selector */
+      .heading {
+        text-align: center;
+        font-weight: 200;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      input,
+      textarea {
+        margin: 0px 0px 10px 0px;
+        width: 92%;
+        font-size: 15px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      /* Id Selector */
+      #btn {
+        width: 100%;
+        font-size: larger;
+        border: none;
+        background-color: rgb(0, 128, 119);
+        color: white;
+        padding: 5px 0px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="paragraph">*Please fill the form</p>
+
+    <form>
+      <h1 class="heading">Contact Form</h1>
+      <input type="text" placeholder="Enter Your Name" /> <br />
+      <input type="email" placeholder="Enter Your Email" /> <br />
+      <input type="number" placeholder="Enter Your Number" /> <br />
+      <textarea cols="30" rows="5" placeholder="Enter Your Message"></textarea>
+      <br />
+      <button id="btn">Submit</button>
+    </form>
+  </body>
+</html>
